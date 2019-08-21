@@ -1,0 +1,241 @@
+body {
+  background-color: #1a1a1a;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container-fluid {
+  padding-top: 15px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h1 {
+  color: #ececec;
+  font-family: "Oswald", sans-serif;
+  font-size: 9vw;
+  text-shadow: 8px 8px 2px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+h3 {
+  color: #ececec;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3vw;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+  margin: 0;
+}
+
+a {
+  color: #ececec;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3vw;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+  cursor: pointer;
+  margin: 0;
+}
+
+a:link {
+  color: #ececec;
+}
+
+a:visited {
+  color: #ececec;
+}
+
+a:hover {
+  color: #ececec;
+  text-shadow: 0px 0px 5px white;
+  text-decoration: none;
+}
+
+#cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+#titleBlue {
+  cursor: default;
+  user-select: none;
+  text-align: center;
+}
+
+#titleJourney {
+  cursor: default;
+  user-select: none;
+  text-align: center;
+}
+
+.text2 {
+  text-align: right;
+}
+
+.humanitarian {
+  margin-bottom: 9vw;
+  cursor: default;
+  user-select: none;
+}
+
+.allProjects {
+  padding: 0;
+}
+
+.projects {
+  display: inline-flex;
+  cursor: default;
+  user-select: none;
+  margin-left: 1vw;
+  margin-top: 3vw;
+  -webkit-animation: bounce-in-fwd 1.1s both;
+  animation: bounce-in-fwd 1.1s both;
+}
+
+@-webkit-keyframes bounce-in-fwd {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  89% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes bounce-in-fwd {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  89% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+#firstproject {
+  margin-left: 0;
+}
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 17vw;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  a {
+    font-size: 2.5vw;
+  }
+
+  .allProjects {
+    margin-top: 57vw;
+  }
+
+  .project {
+    font-size: 4vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
